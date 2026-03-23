@@ -11,6 +11,7 @@ public class prod {
     
     System.out.print("Enter the second number: ");
     int num2 = number.nextInt();
+    number.close();
 
     int result = num1 * num2;
 
